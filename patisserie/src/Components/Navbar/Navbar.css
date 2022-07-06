@@ -1,11 +1,12 @@
 .NavbarItems{
-    background: #ead9cd;
+    background: transparent;
     height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.2rem;
-    
+    font-size: 1rem;
+    right: 100%;
+
 }
 .navbar-logo {
     height: 80px;
@@ -31,7 +32,7 @@
 
 }
 .nav_links {
-   color : white;
+   color : #B8ABA2;
    text-decoration: none;
    padding: 0.5rem 1rem; 
 }

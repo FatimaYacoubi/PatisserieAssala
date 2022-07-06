@@ -4,9 +4,13 @@ import React, { Component } from 'react';
 import Navbar from './Components/Navbar/Navbar';
 import { Carousel } from 'react-responsive-carousel';
 import background  from './Components/background.png'
-import { UserCard } from 'react-ui-cards';
+import { UserCard } from 'react-ui-cards'; 
 import { Container, Row, Col } from 'react-grid-system';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import InfoSection from './Components/InfoSection';
+import { homeObjOne, homeObjthree, homeObjtwo } from './Components/InfoSection/Data';
+import { Button } from './Components/Button';
+import InfoSection2 from './Components/InfoSection/Index1';
 
 function App() {
   return (
@@ -16,15 +20,12 @@ function App() {
       <Carousel>
                 <div>
                     <img src={background} />
-                    <p className="legend">Legend 1</p>
                 </div>
                 <div>
                     <img src={background} />
-                    <p className="legend">Legend 2</p>
                 </div>
                 <div>
                     <img src={background} />
-                    <p className="legend">Legend 3</p>
                 </div>
             </Carousel>
             <Container>
@@ -32,33 +33,32 @@ function App() {
     <Col sm={4}>
             <UserCard
     float
-    href='https://github.com/nukeop'
-    header='https://i.imgur.com/vRAtM3i.jpg'
-    avatar='https://i.imgur.com/XJxqvsU.jpg'
-    name='Frank Hepsfield'
+    header={background} 
+    name='Kaak warka'
     positionName='Software Engineering Manager'
 />     </Col>
 <Col sm={4}>
 <UserCard
     float
-    href='https://github.com/nukeop'
-    header='https://i.imgur.com/vRAtM3i.jpg'
-    avatar='https://i.imgur.com/XJxqvsU.jpg'
-    name='Frank Hepsfield'
-    positionName='Software Engineering Manager'
+    header={background} 
+    name='Kaak warka'
+    positionName='Delicatesse en Amande'
 /> </Col>
 <Col sm={4}>
 
 <UserCard
     float
-    href='https://github.com/nukeop'
-    header='https://i.imgur.com/vRAtM3i.jpg'
-    avatar='https://i.imgur.com/XJxqvsU.jpg'
-    name='Frank Hepsfield'
-    positionName='Software Engineering Manager'
+    header={background} 
+    name='Kaak warka'
+    positionName='Delicatesse en Amande'
 /></Col>  </Row>
  </Container> 
-
+ <br></br>
+ <br></br>
+ <br></br>
+<InfoSection {...homeObjOne}/> 
+<InfoSection2 {...homeObjtwo}/> 
+<InfoSection {...homeObjthree}/> 
     </div>
   ); }
 
