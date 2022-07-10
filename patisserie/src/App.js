@@ -8,6 +8,8 @@ import { UserCard } from 'react-ui-cards';
 import { Container, Row, Col } from 'react-grid-system';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import InfoSection from './Components/InfoSection';
+import Services from './Components/services';
+
 import { homeObjOne, homeObjthree, homeObjtwo } from './Components/InfoSection/Data';
 import { Button } from './Components/Button';
 import InfoSection2 from './Components/InfoSection/Index1';
@@ -28,37 +30,14 @@ function App() {
                     <img src={background} />
                 </div>
             </Carousel>
-            <Container>
-            <Row>
-    <Col sm={4}>
-            <UserCard
-    float
-    header={background} 
-    name='Kaak warka'
-    positionName='Software Engineering Manager'
-/>     </Col>
-<Col sm={4}>
-<UserCard
-    float
-    header={background} 
-    name='Kaak warka'
-    positionName='Delicatesse en Amande'
-/> </Col>
-<Col sm={4}>
-
-<UserCard
-    float
-    header={background} 
-    name='Kaak warka'
-    positionName='Delicatesse en Amande'
-/></Col>  </Row>
- </Container> 
+           
  <br></br>
  <br></br>
  <br></br>
 <InfoSection {...homeObjOne}/> 
 <InfoSection2 {...homeObjtwo}/> 
 <InfoSection {...homeObjthree}/> 
+<Services />
     </div>
   ); }
 

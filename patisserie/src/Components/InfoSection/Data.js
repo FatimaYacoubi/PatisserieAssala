@@ -1,5 +1,5 @@
 export const homeObjOne = {
-    id: 'about',
+    id: 'amandes',
     lightBg: true,
     lightText: true,
     lightTextDesc: true,
@@ -9,13 +9,13 @@ export const homeObjOne = {
     buttonLabel: 'Commander',
     imgStart: false,
     img: require('../../images/amandes.jpg'),
-    alt: 'Car',
+    alt: 'amandes',
     dark: true,
     primary: true,
     darkText: false
 };
 export const homeObjtwo = {
-    id: 'about',
+    id: 'pistaches',
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
@@ -25,13 +25,13 @@ export const homeObjtwo = {
     buttonLabel: 'Commander',
     imgStart: false,
     img: require('../../images/pistaches.jpg'),
-    alt: 'Car',
+    alt: 'pistaches',
     dark: true,
-    primary: true,
+    primary: false,
     darkText: false
 };
 export const homeObjthree = {
-    id: 'about',
+    id: 'noisettes',
     lightBg: true,
     lightText: true,
     lightTextDesc: true,
@@ -41,8 +41,8 @@ export const homeObjthree = {
     buttonLabel: 'Commander',
     imgStart: false,
     img: require('../../images/noisettes.jpg'),
-    alt: 'Car',
+    alt: 'noisettes',
     dark: true,
-    primary: true,
+    primary: false,
     darkText: false
 };

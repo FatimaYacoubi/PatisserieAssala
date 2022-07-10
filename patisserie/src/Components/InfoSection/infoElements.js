@@ -1,19 +1,29 @@
 import styled from 'styled-components'
 export const InfoContainer = styled.div`
 color: #fff;
-background: ${({lightBg}) => (lightBg ? '#695A53' : '#000')};
+background: ${({lightBg}) => (lightBg ? '#695A53' : '#fff')};
 @media screen and (max-width: 768px) {
+    padding: 100px 0;
 } `
 export const InfoWrapper = styled.div`
 display: grid;
 z-index: 1;
-height: 560px;
+@media screen and (max-width: 480px)
+{
+    height: 860px;
+}
+@media screen and (max-width: 768px)
+ {
+    height 950px;
+ }
+height: 500px;
 width: 100%;
 max-width: 1100px;
 margin-right: auto;
 margin-left auto;
 padding: 0 24px;
 justify_content: center;
+
 `
 export const InfoRow = styled.div`
 display : grid;
@@ -81,7 +91,7 @@ height 100%;`
 export const Img = styled.img`
 width: 100%;
 margin: 0 0 10px 0;
-padding-right: 0px;
+padding-right: 0;
 `
 export const InfoRow2 = styled.div`
 display : grid;
