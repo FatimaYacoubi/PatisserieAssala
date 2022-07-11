@@ -2,10 +2,14 @@ import React from 'react';
 import './../BestSellers/ServicesElements.css';
 import Kaakwarka from '../../images/Kaakwarka.png'
 import { Button } from '../Button';
+import { ServicesH1 } from './Styledelements';
 const BestSellers = () => {
     return(
+        <div>
+            <ServicesH1> Best Sellers </ServicesH1>
 
 <body>
+
 	<section>
 		<div class="container">
 			<div class="card">
@@ -64,7 +68,8 @@ const BestSellers = () => {
 			</div>
 		</div>
 	</section>
-</body>
+    </body>
+    </div>
     )
 }
 export default BestSellers;
