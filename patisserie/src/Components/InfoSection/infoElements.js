@@ -14,7 +14,7 @@ z-index: 1;
 }
 @media screen and (max-width: 768px)
  {
-    height 950px;
+    height 750px;
  }
 height: 500px;
 width: 100%;

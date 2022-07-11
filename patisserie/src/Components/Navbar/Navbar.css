@@ -43,7 +43,7 @@
 
 }
 .fa_bars {
-    color:rgb(56, 17, 17);
+    color:rgb(208, 52, 52);
 }
 .nav_links-mobile{
     display:none;
@@ -51,7 +51,7 @@
 .menu-icon {
     display:none;
 }
-@media screen and (max_width:960px) {
+@media screen and (max-width:960px) {
     .NavbarItems {
         position:relative;
     }
@@ -59,11 +59,11 @@
         display:flex;
         flex-direction:column;
         width:100%;
-        height:500px;
+        height:100px;
         position: absolute;
         top: 80px;
-        left:-100%;
-        opacity:1;
+        align-self: center;
+        opacity:3;
         transition: all 0.5s ease;
         }
     .nav-menu.active {
@@ -97,7 +97,7 @@
         position: absolute;
         top: 0;
         right: 0;
-        transform: translate(100%,60%);   
+        transform: translate(100%,50%);   
         font-size: 1.8rem;
         cursor:pointer;
     }
