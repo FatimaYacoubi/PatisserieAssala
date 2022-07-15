@@ -5,12 +5,17 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import SigninPage from './pages/signin';
 import {BrowserRouter as Router,Route,Routes} from 'react-router-dom';
+import Product from './pages/products';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 <Router>
 <Routes>
 <Route path="/" element={<App/>} />
+<Route path="/home" element={<App/>} />
+
 <Route path="/signin" element={<SigninPage/>} />
+<Route path="/products" element={<Product/>} />
+
   </Routes>
 
 </Router>
