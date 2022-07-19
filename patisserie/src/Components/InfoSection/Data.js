@@ -46,3 +46,19 @@ export const homeObjthree = {
     primary: false,
     darkText: false
 };
+export const homeObjfour = {
+    id: 'chef',
+    lightBg: true,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'Qualité Excellente',
+    headline: 'Nos Chefs Patissiers Sont à votre Disposition.',
+    description: 'Contactez nous pour plus d informations',
+    buttonLabel: 'Contactez nous',
+    imgStart: false,
+    img: require('../../images/Chef.png'),
+    alt: 'chef',
+    dark: true,
+    primary: false,
+    darkText: false
+};

@@ -19,23 +19,23 @@
 	left: 0;
 	width: 100%;
 	height: 100%;
-	
+
 }
 
-.container {
+.container { 
 	position: relative;
 	z-index: 1;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
-	margin: 40px 0;
+	margin: 60px 0;
 }
 
-.container .card {
+.container .carda {
 	position: relative;
-	width: 250px;
-	height: 300px;
+	width: 300px;
+	height: 390px;
 	background: rgba(255, 255, 255, 0.05);
 	margin: 20px;
 	border-radius: 15px;
@@ -44,11 +44,11 @@
 	align-items: center;
 	backdrop-filter: blur(10px);
 	border-radius: 10px;
-	padding: 30px;
+	padding: 50px;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.2);
 }
 
-.container .card .content {
+.container .carda .content {
 	position: relative;
 	display: flex;
 	justify-content: center;
@@ -57,18 +57,18 @@
 	transition: 0.5s;
 }
 
-.container .card:hover .content {
+.container .carda:hover .content {
 	transform: translateY(-20px);
 }
 
-.container .card .content .imgBx {
+.container .carda .content .imgBx {
 	position: relative;
-	width: 150px;
-	height: 150px;
+	width: 300px;
+	height: 350px;
 	overflow: hidden;
 }
 
-.container .card .content .imgBx img {
+.container .carda .content .imgBx img {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -77,30 +77,30 @@
 	object-fit: cover;
 }
 
-.container .card .content .contentBx h3 {
+.container .carda .content .contentBx h3 {
 	color: #e89972;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	font-weight: 500;
-	font-size: 18px;
+	font-size: 14px;
 	text-align: center;
 	margin: 20px 0 10px;
 	line-height: 1.1em;
 }
 
-.container .card .content .contentBx h3 span {
-	font-size: 12px;
+.container .carda .content .contentBx h3 span {
+	font-size: 10px;
 	font-weight: 300;
 	text-transform: initial;
 }
 
-.container .card .sci {
+.container .carda .sci {
 	position: absolute;
 	bottom: 50px;
 	display: flex;
 }
 
-.container .card .sci li {
+.container .carda .sci li {
 	list-style: none;
 	margin: 0 10px;
 	transform: translateY(40px);
@@ -108,12 +108,12 @@
 	opacity: 0;
 }
 
-.container .card:hover .sci li {
+.container .carda:hover .sci li {
 	transform: translateY(0px);
 	opacity: 1;
 }
 
-.container .card .sci li a {
+.container .carda .sci li a {
 	color: rgb(106, 44, 44);
 	font-size: 20px;
 }

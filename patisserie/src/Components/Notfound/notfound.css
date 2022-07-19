@@ -1,0 +1,22 @@
+.not-found 
+{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    color: #000;
+    min-height: 88vh;
+}
+.Icon {
+margin-left: 32px;
+margin-top: 32px;
+text-decoration: none;
+color: #fff;
+font-weight: 700;
+font-size: 32px;
+
+@media screen and (max-width: 480px)
+{
+    margin-left: 16px;
+    margin-top: 8px;
+} }

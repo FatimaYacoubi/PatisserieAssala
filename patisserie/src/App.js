@@ -10,10 +10,12 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import InfoSection from './Components/InfoSection';
 import Services from './Components/services';
 import Footer from './Components/Footer';
-import { homeObjOne, homeObjthree, homeObjtwo } from './Components/InfoSection/Data';
+import { homeObjfour, homeObjOne, homeObjthree, homeObjtwo } from './Components/InfoSection/Data';
 import { Button } from './Components/Button';
 import InfoSection2 from './Components/InfoSection/Index1';
 import BestSellers from './Components/BestSellers';
+import InstagramEmbed from './Components/InstagramEmbed';
+import Quote from './Components/Quote';
 
 function App() {
   return (
@@ -39,10 +41,11 @@ function App() {
 <InfoSection2 {...homeObjtwo}/> 
 <InfoSection {...homeObjthree}/> 
 <Services />
-<InfoSection {...homeObjOne}/> 
+<InfoSection {...homeObjfour}/> 
 
 < BestSellers />
-
+< Quote />
+<InstagramEmbed />
 <Footer />
     </div>
   ); }

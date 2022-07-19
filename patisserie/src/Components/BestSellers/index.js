@@ -26,7 +26,7 @@ const BestSellers = () => {
 				</div>
 				<ul class="sci">
 					<li>
-                    <a href=""><Button> Commander</Button> </a> 
+                    <a target="_blank" href="https://meetflo.zendesk.com/hc/en-us/articles/230425728-Privacy-Policies"><Button> Commander</Button> </a> 
 
 					</li>
 

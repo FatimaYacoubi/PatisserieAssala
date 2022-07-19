@@ -6,20 +6,34 @@ export const MenuItems =[
     },
     {
         title:'Services',
-        url:'#',
+        url:'services',
         cName: 'nav_links'
     },{
         title:'Products',
         url:'products',
         cName: 'nav_links'
     },{
-        title:'Contact Us',
-        url:'#',
+        title:'Sign Up',
+        url:'signup',
         cName: 'nav_links'
     },{
-        title:'Sign Up',
+        title:'Sign In',
         url:'signin',
-        cName: 'nav_links'
+        cName: 'nav_links',
+        subNav: [
+            {
+                title: 'Login',
+                path: '/login',
+                cName: 'dropdown-link',
+                menuName: 'account-menu',
+            },
+            {
+                title: 'Profile',
+                path: '/profile',
+                cName: 'dropdown-link',
+                menuName: 'account-menu',
+            },
+        ],
     }
     
 ]

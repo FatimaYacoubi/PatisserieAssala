@@ -6,6 +6,7 @@ import { FaShoppingCart } from "react-icons/fa";
 import {Nav, Badge,Dropdown} from "react-bootstrap";
 class Navbar extends Component {
     state = { clicked: false}
+    
     handleClick = () =>{
         this.setState({ clicked: !this.state.clicked})
     }

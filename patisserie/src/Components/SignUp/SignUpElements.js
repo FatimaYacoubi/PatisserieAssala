@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 import Background from '../../images/background.png'
 
 export const Container = styled.div`
-position: fixed;
 bottom: 0;
 left: 0;
 right: 0;
@@ -49,15 +48,14 @@ background: rgba(255, 255, 255, 0.2);
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(5px);
--webkit-backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(10px);
 border: 1px solid rgba(255, 255, 255, 0.3);
-max-width: 400px;
 height: auto;
-width: 100%;
+width: 500px;
 z-index: 1;
 display: grid;
 margin: 0 auto;
-padding: 80px 32px;
+padding: 10px 32px;
 border-radius: 4px;
 @media screen and (max-width:480px)
 {
@@ -72,7 +70,7 @@ font-weight: 700;
 text-align: center;
 `;
 export const FormLabel = styled.label`
-margin-bottom: 8px;
+margin-bottom: 2px;
 font-size: 14px;
 color: #fff;
 `;
