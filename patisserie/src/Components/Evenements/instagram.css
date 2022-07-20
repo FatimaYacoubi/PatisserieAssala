@@ -64,7 +64,6 @@
 .container .cardaa .content .imgBx {
 	position: relative;
 	align-items: center;
-
 	width: 1200px;
 	height:300px;
 	overflow: hidden;
@@ -106,6 +105,7 @@
 
 .container .cardaa .sci {
 	position: absolute;
+	
 	bottom: 50px;
 	font-size: 30px;
 	align-items: center;
@@ -123,6 +123,7 @@
 
 .container .cardaa .sci li {
 	list-style: none;
+
 	margin: 0 10px;
 	transform: translateY(40px);
 	transition: 0.5s;

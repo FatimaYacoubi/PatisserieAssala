@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 export const ServicesContainer = styled.div`
-height: 600px;
+height: 500px;
 display: flex;
 flex-direction: column;
 justify-content:center;
@@ -61,8 +61,9 @@ export const ServicesH1=styled.h1`
 font-size: 2.5rem;
 letter-spacing: 7px;
 color:#e89972;
-margin-bottom: 64px;
- 
+margin-bottom:50px;
+margin-top:-40px;
+height:30px;
 @media screen and (max-width:480px)
 {font-size: 2rem;}
 `

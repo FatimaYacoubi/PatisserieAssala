@@ -1,13 +1,12 @@
 import styled from 'styled-components'
 export const ServicesH1=styled.h1`
-height: 100px;
+height: 40px;
 display: flex;
 flex-direction: column;
 justify-content:center;
 align-items: center;
 background: #fff;
-font-size: 2.5rem;
-font-size: 3rem;
+font-size: 2rem;
 letter-spacing: 8px;
 color:#e89972;
 margin-top:100px;

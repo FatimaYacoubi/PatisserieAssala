@@ -33,9 +33,11 @@ position: absolute;
    
 }
 .hero-container > h1 {
-    color :#fff;
-    font-size: 50px;
-    letter-spacing: 4px;
+    color :#e5ded2;
+    font-size: 40px;
+    font-weight: 500;
+    margin-top:60px;
+    letter-spacing: 8px;
     @media screen and (max-width: 480px) {
         font-size:20px;
     }
@@ -43,7 +45,7 @@ position: absolute;
 .hero-container > p {
     margin:8px;
     margin-bottom:30px;
-    color : #fff;
+    color :#e5ded2;
     font-size: 22px;
    
     

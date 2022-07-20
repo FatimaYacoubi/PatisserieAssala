@@ -12,8 +12,7 @@ const InstagramEmbed = () => {
     return(
         <div>
             <ServicesH1>                     
- Visitez Notre Instagram!  
- </ServicesH1>
+VISITEZ NOTRE INSTAGRAM </ServicesH1>
 
 <body>
 
