@@ -19,7 +19,7 @@ position: absolute;
         left: 0;
         bottom: 0;
         right: 0;
-        background-color: rgba(56, 59, 64, 0.7);
+        background-image: linear-gradient(to right, rgba(79, 54, 12, 0.391), rgba(79, 54, 12, 0.41));
 
     height:100vh;
     width: 100%;
@@ -34,7 +34,8 @@ position: absolute;
 }
 .hero-container > h1 {
     color :#fff;
-    font-size: 70px;
+    font-size: 50px;
+    letter-spacing: 4px;
     @media screen and (max-width: 480px) {
         font-size:20px;
     }

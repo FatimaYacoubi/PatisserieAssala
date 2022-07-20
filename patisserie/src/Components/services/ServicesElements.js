@@ -22,7 +22,7 @@ background: #fff;
  display: grid;
  grid-template-columns: 1fr 1fr 1fr;
  align-items: center;
- grid-gap: 16px;
+ grid-gap:100px;
  padding: 0 50px;
  @media screen and (max-width: 1000px)
  {
@@ -53,12 +53,13 @@ background: #fff;
     cursor:pointer;
  } `
  export const ServicesIcon = styled.img`
-height: 160px;
-width: 160px;
+height: 100px;
+width: 100px;
 margin-bottom: 10px;
 `
 export const ServicesH1=styled.h1`
 font-size: 2.5rem;
+letter-spacing: 7px;
 color:#e89972;
 margin-bottom: 64px;
  
@@ -68,7 +69,9 @@ margin-bottom: 64px;
 export const ServicesH2=styled.h2`
 font-size:1rem;
 margin-bottom:10px;
-color:#B8ABA2;
+color:#e89972;
+font-weight: 300;
+font-size: 22px;
 
 `
 export const ServicesP=styled.p`

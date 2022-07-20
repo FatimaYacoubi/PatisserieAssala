@@ -32,25 +32,25 @@ const Quote = () => {
 }
     return (
         <div align="center">
-              <Heading> Avis Clients</Heading> 
         <div
         style={{
           backgroundImage: 'url('+hcbgImage+')',
           backgroundSize: "cover",
-          height: "56vh",
+          height: "90vh",
           color: "#f5f5f5",
           alignContent: "center"
           
         }}
       >
        <Container align="center"> <FormWrap> <Form> 
-       <TopLine>Avis de nos Clients</TopLine>
+       <Heading> LES AVIS DE NOS CLIENTS</Heading> 
 
         <div className={css`
     display: flex;
     flex-direction: column ;
     align-items: center;
-    margin: 40px auto;
+    margin: 40px;
+
     max-width: 700px;
     p{
         text-align:center;

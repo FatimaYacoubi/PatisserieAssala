@@ -7,6 +7,7 @@ justify-content:center;
 align-items: center;
 background: #fff;
 font-size: 2.5rem;
+letter-spacing: 8px;
 color:#e89972;
  
 

@@ -6,7 +6,7 @@ import { ServicesH1 } from './Styledelements';
 const BestSellers = () => {
     return(
         <div>
-            <ServicesH1> Best Sellers </ServicesH1>
+            <ServicesH1> BEST SELLERS </ServicesH1>
 
 <body>
 

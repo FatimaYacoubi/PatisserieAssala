@@ -29,7 +29,7 @@ align-items: center;
 
 z-index: 1;
 display: grid;
-margin: 0 auto;
+margin: 40px auto ;
 padding: 80px 32px;
 border-radius: 4px;
 @media screen and (max-width:480px)
@@ -54,11 +54,10 @@ color: #e89972;
 
 `
 export const Heading =styled.h1`
-margin-bottom: 40px;
+margin-bottom: 20px;
 margin-top: 60px;
-
+letter-spacing: 8px;
 font-size: 40px;
-color:
 line-height: 1.1;
 color: #e89972;
 @media screen and (max-width: 480px) {
