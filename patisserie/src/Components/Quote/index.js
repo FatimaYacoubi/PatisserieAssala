@@ -55,8 +55,8 @@ const Quote = () => {
     p{
         text-align:center;
         margin-bottom:20px;
-        color: #B8ABA2;
-        font-weight: 500;
+        color: #cececd;
+        font-weight: 200;
         font-size:20px;
     }
     `}>

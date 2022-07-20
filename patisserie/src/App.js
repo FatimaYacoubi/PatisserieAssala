@@ -1,9 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import "react-widgets/styles.css";
 import React, { Component } from 'react';
 import Navbar from './Components/Navbar/Navbar';
 import { Carousel } from 'react-responsive-carousel';
-import background  from './Components/background.png'
+import background  from './Components/background2.png'
 import { UserCard } from 'react-ui-cards'; 
 import { Container, Row, Col } from 'react-grid-system';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
@@ -16,27 +17,15 @@ import InfoSection2 from './Components/InfoSection/Index1';
 import BestSellers from './Components/BestSellers';
 import InstagramEmbed from './Components/InstagramEmbed';
 import Quote from './Components/Quote';
+import VideoCarousel from './Components/VideoCarousel/VideoCarousel';
+import HeroSection from './Components/HeroSection/HeroSection';
+import ProductDetail from './Components/ProductDetail/ProductDetail';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      
-      <Carousel>
-                <div>
-                    <img src={background} />
-                </div>
-                <div>
-                    <img src={background} />
-                </div>
-                <div>
-                    <img src={background} />
-                </div>
-            </Carousel>
-           
- <br></br>
- <br></br>
- <br></br>
+      <HeroSection />
 <InfoSection {...homeObjOne}/> 
 <InfoSection2 {...homeObjtwo}/> 
 <InfoSection {...homeObjthree}/> 
@@ -45,6 +34,7 @@ function App() {
 
 < BestSellers />
 < Quote />
+
 <InstagramEmbed />
 <Footer />
     </div>

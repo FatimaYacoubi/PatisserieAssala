@@ -9,7 +9,7 @@ background: #fff;
 font-size: 2.5rem;
 font-weight: 300 ;
 color:#e89972;
-margin-top:60px;
+margin-top:100px;
 margin 50px;
  
 

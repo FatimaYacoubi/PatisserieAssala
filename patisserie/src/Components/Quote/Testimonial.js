@@ -50,6 +50,8 @@ font-weight: 400;
 letter-spacing: 1.5px;
 text-transform: uppercase;
 margin-bottom: 13px;
+color: #e89972;
+
 `
 export const Heading =styled.h1`
 margin-bottom: 40px;

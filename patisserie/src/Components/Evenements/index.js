@@ -30,11 +30,10 @@ const Evenements = () => {
 					</div>
 				</div> </div>
 
-				<ul class="sci">
-					<li> 
-					<div class="ServicesH1"> hello </div>
+				<ul class="sci" align="center">
+					<li>  <h2> Pour Vos Mariages</h2>
 
-					<a target="_blank" href="https://www.instagram.com/patisserieassala/"><Button> Voir le post </Button> 
+					<a target="_blank" href="https://www.instagram.com/patisserieassala/"><Button> Commandez une grande Qualité </Button> 
  </a> 
 
 					</li>
@@ -51,9 +50,9 @@ const Evenements = () => {
 					<div class="contentBx">
 					</div>
 				</div>
-				<ul class="sci">
-                <li>
-				<a target="_blank" href="https://www.instagram.com/patisserieassala/"><Button> Voir le post</Button> 
+				<ul class="sci" align="center">
+					<li>  <h2> Pour Vos Soutenances et Evenements</h2>
+				<a target="_blank" href="https://www.instagram.com/patisserieassala/"><Button> Commander </Button> 
  </a> 
 					</li>
 				</ul>
@@ -67,9 +66,9 @@ const Evenements = () => {
 					<div class="contentBx">
 					</div>
 				</div>
-				<ul class="sci">
-                <li>
-				<a target="_blank" href="https://www.instagram.com/patisserieassala/"><Button> Voir le post</Button> 
+				<ul class="sci"align="center">
+					<li>  <h2> Pour Vos Fetes</h2>
+				<a target="_blank" href="https://www.instagram.com/patisserieassala/"><Button> Commander</Button> 
  </a> 
 					</li>
 				</ul>

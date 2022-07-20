@@ -1,0 +1,66 @@
+video {
+object-fit:cover;
+width: 100%;
+height:100%;
+z-index:-1;
+position: absolute;
+
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.hero-container{
+    
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-color: rgba(56, 59, 64, 0.7);
+
+    height:100vh;
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items: center; 
+    object-fit: contain;
+}
+.hero-container > img {
+    margin-top: 100px;
+   
+}
+.hero-container > h1 {
+    color :#fff;
+    font-size: 70px;
+    @media screen and (max-width: 480px) {
+        font-size:20px;
+    }
+}
+.hero-container > p {
+    margin:8px;
+    margin-bottom:30px;
+    color : #fff;
+    font-size: 22px;
+   
+    
+
+}
+@media screen and (max-width: 480px) {
+    .hero-container > p {
+        margin:10px;
+       
+
+    
+        color : #fff;
+        font-size: 12px;
+   
+}}
+@media screen and (max-width: 480px) {
+    .hero-container > h1 {
+       
+        font-size: 32px;
+   
+}}

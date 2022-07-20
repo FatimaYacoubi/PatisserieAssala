@@ -12,7 +12,7 @@ const InstagramEmbed = () => {
     return(
         <div>
             <ServicesH1>                     
- Visitez Notre Instagram!  <Container>                 <img  src={instagramlogo} alt="BigCo Inc. logo"></img> </Container> 
+ Visitez Notre Instagram!  
  </ServicesH1>
 
 <body>
