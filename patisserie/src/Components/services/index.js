@@ -3,6 +3,7 @@ import { ServicesContainer,ServicesH1, ServicesCard,ServicesWrapper,ServicesIcon
 import icon1 from '../../images/box.png'
 import icon2 from '../../images/shield.png'
 import icon3 from '../../images/quality.png'
+import hcbgImage from '../../Components/background2.png'
 
 const Services = () => {
     return(

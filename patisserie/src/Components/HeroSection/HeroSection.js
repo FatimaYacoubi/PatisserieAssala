@@ -10,7 +10,7 @@ function HeroSection() {
         <img src={logo}></img>
     <h1> DECOUVREZ NOS DELICES 
     </h1>
-    <p> Une grande selection de la patisserie trasitionelle tunisienne</p>
+    <p> Une grande selection de la patisserie traditionelle tunisienne</p>
     <div className="hero-btns">
     <Button> commandez</Button>
     </div> </div>

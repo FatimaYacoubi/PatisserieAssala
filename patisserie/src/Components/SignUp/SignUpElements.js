@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import Background from '../../images/background.png'
 
 export const Container = styled.div`
-bottom: 0;
+margin-bottom:-50px;
 left: 0;
 right: 0;
 top: 0;
@@ -55,7 +55,9 @@ width: 500px;
 z-index: 1;
 display: grid;
 margin: 0 auto;
+margin-bottom:30px;
 padding: 10px 32px;
+margin-top:30px
 border-radius: 4px;
 @media screen and (max-width:480px)
 {

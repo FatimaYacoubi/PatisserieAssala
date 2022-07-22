@@ -1,8 +1,9 @@
 import React from 'react';
-import './../BestSellers/ServicesElements.css';
 import Kaakwarka from '../../images/Kaakwarka.png'
 import { Button } from '../Button';
 import { ServicesH1 } from './Styledelements';
+import './ServicesElements.css';
+
 const BestSellers = () => {
     return(
         <div>

@@ -34,10 +34,10 @@ position: absolute;
 }
 .hero-container > h1 {
     color :#e5ded2;
-    font-size: 40px;
-    font-weight: 500;
-    margin-top:60px;
-    letter-spacing: 8px;
+    font-size: 56px;
+    font-weight: 300;
+    margin-top:20px;
+    letter-spacing: 19px;
     @media screen and (max-width: 480px) {
         font-size:20px;
     }
@@ -47,6 +47,8 @@ position: absolute;
     margin-bottom:30px;
     color :#e5ded2;
     font-size: 22px;
+    letter-spacing: 5px;
+
    
     
 

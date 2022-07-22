@@ -5,12 +5,11 @@ display: flex;
 flex-direction: column;
 justify-content:center;
 align-items: center;
-background: #fff;
 font-size: 2rem;
 letter-spacing: 8px;
 color:#e89972;
-margin-top:100px;
-margin 50px;
+margin-top:60px;
+margin-bottom:40px;
  
 
 `

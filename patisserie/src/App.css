@@ -4,5 +4,9 @@
   padding:0;
   font-weight: 300 ;
   
+  
   font-family: 'Cormorant Garamond', serif;
+}
+.Colored{
+  background-color:#e5ded2;
 }

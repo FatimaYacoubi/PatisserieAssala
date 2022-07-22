@@ -37,15 +37,21 @@ grid-template-areas:  ${({imgStart}) => (imgStart ? `'col2 col1'` : `'col1 col2'
 
 export const Column1= styled.div`
 margin-bottom: 100px;
+margin-top: 50px;
+
 padding: 0 15px;
 margin-left: 0;
+
+align-items:center;
+
 grid-area: col1;
 `
 
 export const Column2= styled.div`
 margin-bottom: 100px;
-padding: 0 15px;
-margin-left: 0;
+align-items:center;
+margin-top: 50px;
+margin-right: 150px;
 grid-area: col2;
 `
 

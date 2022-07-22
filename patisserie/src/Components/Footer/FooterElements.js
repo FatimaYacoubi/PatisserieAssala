@@ -2,10 +2,15 @@ import styled from 'styled-components'
 import {Link} from 'react-router-dom'
 
 export const FooterContainer = styled.footer`
-background-color: #695A53; `
+background-color: #695A53; 
+margin-bottom: -40px;
+margin-top:-59px;
+
+`
 export const FooterWrap = styled.div`
-padding: 48px 24px;
+padding: 28px 24px;
 display: flex;
+margin-top:80px;
 flex-direction: column;
 justify-content: center;
 align-items: center;

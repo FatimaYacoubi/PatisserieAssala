@@ -29,8 +29,7 @@ function SignIn (){
    
    <Container>
    <div style={{ backgroundImage: `url(${Background})`,backgroundSize: 'cover', 
-                backgroundPosition: 'center center',
-                backgroundRepeat: 'no-repeat',
+                backgroundRepeat: 'repeat',
                 }}>
 
     <FormWrap>
@@ -41,7 +40,7 @@ function SignIn (){
                 <Form action="#">
                 <div className="navbar-logo">
             <img src={logo}/> </div>         
-            <FormH1> Connectez Vous</FormH1>
+            <FormH1> CONNECTEZ VOUS</FormH1>
 
                    <FormLabel htmlFor='for'>Email</FormLabel>
                 <FormInput type='email' required onChange={(e)=>{setName(e.target.value)}}/>

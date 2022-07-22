@@ -4,7 +4,7 @@ import Background from '../../images/background.png'
 
 export const Container = styled.div`
 position: fixed;
-bottom: 0;
+margin-bottom:30px;
 left: 0;
 right: 0;
 top: 0;
@@ -57,6 +57,8 @@ width: 100%;
 z-index: 1;
 display: grid;
 margin: 0 auto;
+margin-bottom:70px;
+
 padding: 80px 32px;
 border-radius: 4px;
 @media screen and (max-width:480px)
@@ -67,9 +69,10 @@ border-radius: 4px;
 export const FormH1 = styled.h1`
 margin-top: 20px;
 color: #e89972;
-font-size: 28px;
-font-weight: 700;
+font-size: 20px;
+font-weight: 500;
 text-align: center;
+letter-spacing: 2px;
 `;
 export const FormLabel = styled.label`
 margin-bottom: 8px;

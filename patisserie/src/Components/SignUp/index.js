@@ -5,7 +5,7 @@ import logo from '../logo.png'
 import { useState } from 'react';
 import { Button } from 'react-bootstrap'
 import { Container,FormWrap,Icon,FormContent,Form,FormLabel,FormButton,Text,FormH1, FormInput } from './SignUpElements'
-import Background from '../../Components/background22.png'
+import Background from '../../Components/background2.png'
 function SignUp() {
   return (
     <>

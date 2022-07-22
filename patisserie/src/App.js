@@ -20,6 +20,7 @@ import Quote from './Components/Quote';
 import VideoCarousel from './Components/VideoCarousel/VideoCarousel';
 import HeroSection from './Components/HeroSection/HeroSection';
 import ProductDetail from './Components/ProductDetail/ProductDetail';
+import Evenements from './Components/Evenements';
 
 function App() {
   return (
@@ -29,13 +30,13 @@ function App() {
 <InfoSection {...homeObjOne}/> 
 <InfoSection2 {...homeObjtwo}/> 
 <InfoSection {...homeObjthree}/> 
-<Services />
+<div className='Colored'><Services />
 <InfoSection {...homeObjfour}/> 
-
-< BestSellers />
+<div style={{ backgroundColor:'#e5ded2'}}>
+< BestSellers /> </div> 
 < Quote />
 
-<InstagramEmbed />
+<InstagramEmbed /></div>
 <Footer />
     </div>
   ); }
