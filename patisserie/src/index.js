@@ -26,6 +26,16 @@ root.render(
 <Route path="/services" element={<Service/>} />
 <Route path="/products/:id" element={<ProductDetailpage/>} />
 <Route path="*" element={<Navigate to ="/not-found" />}/>
+<Route path="/products/home" element={<Navigate to ="/home" />}/>
+<Route path="/products/services" element={<Navigate to ="/services" />}/>
+<Route path="/products/products" element={<Navigate to ="/products" />}/>
+<Route path="/products/signup" element={<Navigate to ="/signup" />}/>
+<Route path="/products/signin" element={<Navigate to ="/signin" />}/>
+
+
+
+
+
   </Routes>
 
 </Router>

@@ -22,7 +22,7 @@
 	
 }
 
-.container {
+.container1 {
 	position: relative;
 	z-index: 1;
 	display: flex;
@@ -30,9 +30,11 @@
 	align-items: center;
 	flex-wrap: wrap;
 	margin: 40px 0;
+
+
 }
 
-.container .card {
+.container1 .card {
 	position: relative !important;
 	background: rgba(255, 255, 255, 0.212) !important;
 	border-radius: 16px !important;
@@ -44,36 +46,39 @@
 	height: 300px !important;
 	margin: 20px !important;
 	border-radius: 15px !important;
-	display: flex !important;
+	display: grid;
 	justify-content: center !important;
 	align-items: center !important;
 	border-radius: 10px !important;
 	padding: 30px !important;
 	margin-bottom:100px !important;
 
+	
+
 }
 
-.container .card .content {
+.container1 .card .content {
 	position: relative !important ;
 	display: flex !important;
 	justify-content: center !important;
 	align-items: center !important;
 	flex-direction: column !important ;
 	transition: 0.5s !important;
+	
 }
 
-.container .card:hover .content {
+.container1 .card:hover .content {
 	transform: translateY(-20px) !important;
 }
 
-.container .card .content .imgBx {
+.container1 .card .content .imgBx {
 	position: relative;
 	width: 150px;
 	height: 150px;
 	overflow: hidden;
 }
 
-.container .card .content .imgBx img {
+.container1 .card .content .imgBx img {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -82,7 +87,7 @@
 	object-fit: cover;
 }
 
-.container .card .content .contentBx h3 {
+.container1 .card .content .contentBx h3 {
 	color: #e89972 !important;
 	text-transform: uppercase !important;
 	letter-spacing: 2px !important;
@@ -93,20 +98,20 @@
 	line-height: 1.1em !important;
 }
 
-.container .card .content .contentBx h3 span {
+.container1 .card .content .contentBx h3 span {
 	font-size: 12px !important;
 	font-weight: 300 !important;
 	text-transform: initial !important;
 }
 
-.container .card .sci {
+.container1 .card .sci {
 	position: absolute;
 	bottom: 50px;
 	display: flex;
 
 }
 
-.container .card .sci li {
+.container1 .card .sci li {
 	list-style: none !important;
 	margin: 0 10px !important;
 	transform: translateY(40px) !important;
@@ -115,13 +120,32 @@
 
 }
 
-.container .card:hover .sci li {
+.container1 .card:hover .sci li {
 	transform: translateY(-7px) !important;
 	opacity: 1 !important;
 }
 
 
-.container .card .sci li a {
+.container1 .card .sci li a {
 	color: rgb(106, 44, 44) !important;
 	font-size: 20px !important;
+}
+@media screen and (max-width: 480px) {
+	.container1 {
+		display: grid!important;
+		grid-template-columns: auto auto!important;
+		grid-gap: 0px !important;
+		max-width: 400px !important;
+
+		}
+		.container1 .card {
+
+			height:220px !important;
+			width:170px!important;
+			
+			margin: 5px!important;
+			margin-bottom: 39px!important;
+
+			
+		}
 }

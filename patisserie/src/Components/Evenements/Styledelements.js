@@ -12,7 +12,10 @@ color:#e89972;
 margin-top:60px;
 margin 50px;
  
+@media screen and (max-width: 480px)
+{font-size: 1.5rem;
 
+}
 `
 export const ServicesH2=styled.h2`
 font-size:1rem;

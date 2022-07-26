@@ -10,7 +10,11 @@ letter-spacing: 8px;
 color:#e89972;
 margin-top:60px;
 margin-bottom:40px;
- 
+@media screen and (max-width: 480px)
+{font-size: 1.5rem;
+justify-self: center;
+align-items: center;
+}
 
 `
 export const ServicesH2=styled.h2`

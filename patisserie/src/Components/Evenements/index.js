@@ -33,7 +33,7 @@ const Evenements = () => {
 				<ul class="sci" align="center">
 					<li>  <h2> Pour Vos Mariages</h2>
 
-					<a target="_blank" href="https://www.instagram.com/patisserieassala/"><Button> Commandez une grande Qualité </Button> 
+					<a target="_blank" href="https://www.instagram.com/patisserieassala/"><Button> Commandez </Button> 
  </a> 
 
 					</li>

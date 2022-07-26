@@ -19,14 +19,16 @@ import VideoCarousel from './Components/VideoCarousel/VideoCarousel';
 import HeroSection from './Components/HeroSection/HeroSection';
 import ProductDetail from './Components/ProductDetail/ProductDetail';
 import Evenements from './Components/Evenements';
+import { ServicesH1 } from './Components/BestSellers/Styledelements';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <HeroSection />
-     < BestSellers /> 
-
+     < BestSellers />  <div align="center">
+     <ServicesH1 style={{marginTop: '-30px'}}>POUR VOS EVENEMENTS</ServicesH1> 
+     </div>
       <Evenements />
 <InfoSection {...homeObjOne}/> 
 <InfoSection2 {...homeObjtwo}/> 

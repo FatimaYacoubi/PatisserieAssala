@@ -8,7 +8,7 @@ const Service = () => {
   return (
     <div> 
         <Navbar /> <div  align="center">
-        <ServicesH1> NOS SERVICES</ServicesH1> </div>
+        <ServicesH1> NOS SERVICES</ServicesH1>  </div>
         <Evenements />
         <BestSellers />
         <Footer />

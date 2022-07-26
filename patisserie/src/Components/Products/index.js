@@ -1,3 +1,5 @@
+
+
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './../Products/Products.css';
@@ -24,6 +26,7 @@ const ProductsList = () => {
 
 <body>
 
+
 	<section>
 		<div class="container">
 			{Products.map((Product) => (
@@ -34,11 +37,12 @@ const ProductsList = () => {
 					
 					</div>
 					<div class="contentBx">
-						<h3>{Product.name}<span> <strong>Prix {Product.price} Dt </strong></span></h3>
+						<h3>{Product.name} / {Product.price} Dt/kg</h3>
 					</div>
 				</div>
 				<ul class="sci">
-			
+				<li> <Link to={`/products/${Product._id}`} >
+                    <a><Button> Commander</Button> </a> </Link> </li>
 				</ul> 
 			</div> ))}
 	  </div> 
