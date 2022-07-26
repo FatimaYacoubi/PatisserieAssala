@@ -11,6 +11,8 @@ import NotFound from './Components/Notfound';
 import Evenements from './Components/Evenements';
 import Service from './pages/services';
 import ProductDetailpage from './pages/productDetail';
+import Navbar from './Components/Navbar/Navbar';
+import Footer from './Components/Footer';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 <Router>
@@ -22,8 +24,7 @@ root.render(
 <Route path="/products" element={<Product/>} />
 <Route path="/signup" element={<SignUp/>} />
 <Route path="/services" element={<Service/>} />
-<Route path="/productDetail" element={<ProductDetailpage/>} />
-
+<Route path="/products/:id" element={<ProductDetailpage/>} />
 <Route path="*" element={<Navigate to ="/not-found" />}/>
   </Routes>
 

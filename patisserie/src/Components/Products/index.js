@@ -1,11 +1,24 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import './../Products/Products.css';
 import'../ProductDetail/elements.css';
 import Kaakwarka from '../../images/Kaakwarka.png'
 import { Button } from '../Button';
 import { ServicesH1 } from './StyledElements';
-const Products = () => {
-    return(
+import Products from './Products';
+import axios from "axios";
+import { useState } from 'react';
+const ProductsList = () => {
+	const [products,setProducts]= useState([]);
+  
+	useEffect(()=> {
+  const fetchproducts = async () =>{
+	  const { data } = await axios.get(`/api/products`);
+	  setProducts(data);
+  }; 
+  fetchproducts();
+	},[]);
+	return(
         <div>
             <ServicesH1>Nos Produits </ServicesH1>
 
@@ -13,186 +26,25 @@ const Products = () => {
 
 	<section>
 		<div class="container">
-			<div class="card">
+			{Products.map((Product) => (
+			<div class="card"  key={ Product._id}>
 				<div class="content">
 					<div class="imgBx">
-                    <img  src={Kaakwarka} alt="BigCo Inc. logo"/>
-
-                   
-
-					</div>
-					<div class="contentBx">
-                    <h3>Kaak warka<span>Best seller #1</span></h3>
-					</div>
-				</div>
-				<ul class="sci">
-					<li>
+                    <img  src={Product.image} alt={Product.name}/>
 					
-          
-       
-                    <a href="/productDetail"><Button> Commander</Button> </a> 
-					
-					</li>
-
-				</ul>
-			</div>
-			<div class="card">
-				<div class="content">
-					<div class="imgBx">
-                    <img  src={Kaakwarka} alt=""/>
-
 					</div>
 					<div class="contentBx">
-                    <h3>Kaak warka<span>Best seller #2</span></h3>
+						<h3>{Product.name}<span> <strong>Prix {Product.price} Dt </strong></span></h3>
 					</div>
 				</div>
 				<ul class="sci">
-                <li>
-                    <a href=""><Button> Commander</Button> </a> 
-
-					</li>
-				</ul>
-			</div>
-            <div class="card">
-				<div class="content">
-					<div class="imgBx">
-                    <img  src={Kaakwarka} alt=""/>
-
-					</div>
-					<div class="contentBx">
-                    <h3>Kaak warka<span>Best seller #2</span></h3>
-					</div>
-				</div>
-				<ul class="sci">
-                <li>
-                    <a href=""><Button> Commander</Button> </a> 
-
-					</li>
-				</ul>
-			</div>
-            <div class="card">
-				<div class="content">
-					<div class="imgBx">
-                    <img  src={Kaakwarka} alt=""/>
-
-					</div>
-					<div class="contentBx">
-                    <h3>Kaak warka<span>Best seller #2</span></h3>
-					</div>
-				</div>
-				<ul class="sci">
-                <li>
-                    <a href=""><Button> Commander</Button> </a> 
-
-					</li>
-				</ul>
-			</div>
-            <div class="card">
-				<div class="content">
-					<div class="imgBx">
-                    <img  src={Kaakwarka} alt=""/>
-
-					</div>
-					<div class="contentBx">
-                    <h3>Kaak warka<span>Best seller #2</span></h3>
-					</div>
-				</div>
-				<ul class="sci">
-                <li>
-                    <a href=""><Button> Commander</Button> </a> 
-
-					</li>
-				</ul>
-			</div>
-            <div class="card">
-				<div class="content">
-					<div class="imgBx">
-                    <img  src={Kaakwarka} alt=""/>
-
-					</div>
-					<div class="contentBx">
-                    <h3>Kaak warka<span>Best seller #2</span></h3>
-					</div>
-				</div>
-				<ul class="sci">
-                <li>
-                    <a href=""><Button> Commander</Button> </a> 
-
-					</li>
-				</ul>
-			</div>
-            <div class="card">
-				<div class="content">
-					<div class="imgBx">
-                    <img  src={Kaakwarka} alt=""/>
-
-					</div>
-					<div class="contentBx">
-                    <h3>Kaak warka<span>Best seller #2</span></h3>
-					</div>
-				</div>
-				<ul class="sci">
-                <li>
-                    <a href=""><Button> Commander</Button> </a> 
-
-					</li>
-				</ul>
-			</div>
-            <div class="card">
-				<div class="content">
-					<div class="imgBx">
-                    <img  src={Kaakwarka} alt=""/>
-
-					</div>
-					<div class="contentBx">
-                    <h3>Kaak warka<span>Best seller #2</span></h3>
-					</div>
-				</div>
-				<ul class="sci">
-                <li>
-                    <a href=""><Button> Commander</Button> </a> 
-
-					</li>
-				</ul>
-			</div>
-            <div class="card">
-				<div class="content">
-					<div class="imgBx">
-                    <img  src={Kaakwarka} alt=""/>
-
-					</div>
-					<div class="contentBx">
-                    <h3>Kaak warka<span>Best seller #2</span></h3>
-					</div>
-				</div>
-				<ul class="sci">
-                <li>
-                    <a href=""><Button> Commander</Button> </a> 
-
-					</li>
-				</ul>
-			</div>
-			<div class="card">
-				<div class="content">
-					<div class="imgBx">
-                    <img  src={Kaakwarka} alt="Bi"/>
-
-					</div>
-					<div class="contentBx">
-						<h3>Kaak warka<span>Best seller #3</span></h3>
-					</div>
-				</div>
-				<ul class="sci">
-                <li>
-                    <a href=""><Button> Commander</Button> </a> 
-
-					</li>
-				</ul>
-			</div>
-		</div>
+			
+				</ul> 
+			</div> ))}
+	  </div> 
 	</section>
     </body>
     </div>
     )
 }
-export default Products;
+export default ProductsList;

@@ -78,6 +78,14 @@ color: ${({lightText}) => (lightText ? '#e89972' : '010606')};
 @media screen and (max-width: 480px) {
     font-size:32px;
 }`
+export const PriceTag =styled.h2`
+margin-bottom: 24px;
+font-size: 20px;
+line-height: 1;
+font-weight: 300;
+@media screen and (max-width: 480px) {
+    font-size:32px;
+}`
 
 export const Subtitle = styled.p`
 max-width: 440px;
